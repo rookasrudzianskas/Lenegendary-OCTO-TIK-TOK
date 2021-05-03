@@ -5,8 +5,7 @@ import React from "react";
 function App() {
   return (
     <div className="app">
-      <h1>Hello, World! 🚀</h1>
-
+        {/* this is the differnt videos*/}
         <div className="app__videos">
             <Video />
             <Video />

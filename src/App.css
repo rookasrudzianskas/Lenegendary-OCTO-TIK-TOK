@@ -4,7 +4,11 @@ html {
 }
 
 .app {
+    height: 100vh;
     background-color: black;
+    /* centering the whole block*/
+    display: grid;
+    place-items: center;
 }
 
 .app__videos {
@@ -18,7 +22,7 @@ html {
 }
 
 /* Hide scrollbar for Chrome and opera*/
-
+/* we keep the scrollbar functionality, but hide it*/
 .app__videos::-webkit-scrollbar {
     display: none;
 }
