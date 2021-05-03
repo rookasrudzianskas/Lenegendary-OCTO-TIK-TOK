@@ -13,6 +13,7 @@ html {
 
 .app__videos {
     position: relative;
+    border-radius: 20px;
     height: 800px;
     overflow: scroll;
     width: 80%;
@@ -21,15 +22,13 @@ html {
     scroll-snap-type: y mandatory;
 }
 
-/* Hide scrollbar for Chrome and opera*/
-/* we keep the scrollbar functionality, but hide it*/
+/* Hide scrollbar for Chrome, Safari and Opera */
 .app__videos::-webkit-scrollbar {
     display: none;
 }
 
-/* hide scrollbar for IE, Edge, and firefox */
-
+/* Hide scrollbar for IE, Edge and Firefox */
 .app__videos {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }

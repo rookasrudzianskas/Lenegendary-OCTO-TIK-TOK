@@ -4,8 +4,8 @@ import "./styles/Video.css";
 const Video = () => {
     return (
         <div className="video">
-            <h1>This is a video 🤙</h1>
 
+        <video className="video__player" src=""/>
         {/*    video footer     */}
         {/*     video sidebar   */}
         </div>
