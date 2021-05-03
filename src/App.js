@@ -1,5 +1,6 @@
 import './App.css';
 import Video from "./components/Video";
+import React from "react";
 
 function App() {
   return (

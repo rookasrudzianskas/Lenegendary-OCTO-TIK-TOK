@@ -1,0 +1,11 @@
+html {
+    /*snapping it does not work without it*/
+    scroll-snap-type: y mandatory;
+}
+
+
+.app__videos {
+    position: relative;
+    height: 800px;
+    overflow: scroll;
+}
