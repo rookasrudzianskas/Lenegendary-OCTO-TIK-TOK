@@ -8,4 +8,8 @@ html {
     position: relative;
     height: 800px;
     overflow: scroll;
+    width: 80%;
+    max-width: 500px;
+    /* set snap mode in the y direction*/
+    scroll-snap-type: y mandatory;
 }
