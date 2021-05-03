@@ -3,6 +3,9 @@ html {
     scroll-snap-type: y mandatory;
 }
 
+.app {
+    background-color: black;
+}
 
 .app__videos {
     position: relative;
@@ -12,4 +15,17 @@ html {
     max-width: 500px;
     /* set snap mode in the y direction*/
     scroll-snap-type: y mandatory;
+}
+
+/* Hide scrollbar for Chrome and opera*/
+
+.app__videos::-webkit-scrollbar {
+    display: none;
+}
+
+/* hide scrollbar for IE, Edge, and firefox */
+
+.app__videos {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
