@@ -5,10 +5,11 @@ const VideoFooter = () => {
     return (
         <div className="videoFooter">
             <div className="videoFooter__text">
-                
+                <h3>@rookasrudzianskas</h3>
+                <p>this is a  description</p>
             </div>
 
-            <img src="https://static.thenounproject.com/png/934821-200.png" alt=""/>
+            <img className="videoFooter__record" src="https://static.thenounproject.com/png/934821-200.png" alt=""/>
         </div>
     )
 }
