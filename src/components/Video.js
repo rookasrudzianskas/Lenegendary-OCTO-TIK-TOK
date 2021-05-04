@@ -1,5 +1,6 @@
 import React, {useRef, useState} from "react";
 import "./styles/Video.css";
+import VideoFooter from "./VideoFooter";
 
 const Video = () => {
     // be default video is going not to be playing
@@ -25,11 +26,10 @@ const Video = () => {
     return (
         <div className="video">
 
-
             <video onClick={onVideoPress} loop ref={videoRef}>
                 <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
             </video>
-
+            <VideoFooter />
             {/*    video footer     */}
         {/*     video sidebar   */}
         </div>
