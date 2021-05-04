@@ -3,7 +3,7 @@ import "./styles/Video.css";
 import VideoFooter from "./VideoFooter";
 import VideoSidebar from "./VideoSidebar";
 
-const Video = () => {
+const Video = ({url, channel, description, song, likes, messages, shares}) => {
     // be default video is going not to be playing
     const [play, setPlay] = useState(false)
     // defining the reference, we attach the video ref to the video
