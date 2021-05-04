@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9a5de7-3373-464f-9a94-49fc2c7aae97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/VideoFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/VideoFooter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/videoos/a.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/VideoFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/VideoFooter.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620024706627</updated>
       <workItem from="1620024710030" duration="15000" />
-      <workItem from="1620024760401" duration="7299000" />
+      <workItem from="1620024760401" duration="7847000" />
     </task>
     <servers />
   </component>
@@ -70,5 +70,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

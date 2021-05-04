@@ -4,7 +4,11 @@ import "./styles/VideoFooter.css";
 const VideoFooter = () => {
     return (
         <div className="videoFooter">
-            <h1>Footer</h1>
+            <div className="videoFooter__text">
+                
+            </div>
+
+            <img src="https://static.thenounproject.com/png/934821-200.png" alt=""/>
         </div>
     )
 }

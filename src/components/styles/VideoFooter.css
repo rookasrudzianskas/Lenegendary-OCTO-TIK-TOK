@@ -1,0 +1,6 @@
+.videoFooter {
+    /* relative means, just in this container, and anywhere else*/
+    position: relative;
+    bottom: 50px;
+    color: white;
+}
