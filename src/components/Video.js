@@ -31,7 +31,7 @@ const Video = ({url, channel, description, song, likes, messages, shares}) => {
             {/*    <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />*/}
             {/*</video>*/}
 
-            <iframe onClick={onVideoPress} ref={videoRef} width="560" height="800" src="https://www.youtube.com/embed/AIWgvL7tLfI"
+            <iframe onClick={onVideoPress} ref={videoRef} width="560" height="800" src={url}
                 title="YouTube video player" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen/>

@@ -7,14 +7,14 @@ function App() {
     <div className="app">
         {/* this is the differnt videos*/}
         <div className="app__videos">
-            <Video />
-            <Video />
-            <Video />
-            <Video />
-            <Video />
-            <Video />
-            <Video />
-            <Video />
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
+            <Video url="https://www.youtube.com/embed/AIWgvL7tLfI" channel="rookasrudzianskas" description="Wow this is amazing" song="catch My disease" likes={300} shares={343} messages={23213}/>
         </div>
     </div>
   );
