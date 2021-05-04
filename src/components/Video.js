@@ -38,7 +38,7 @@ const Video = () => {
 
             <VideoFooter channel="rookasrudzianskas" description="check out this dance" song="Shake it Off!"/>
 
-            <VideoSidebar />
+            <VideoSidebar likes={300} messages={456} shares={333} />
             {/*    video footer     */}
         {/*     video sidebar   */}
         </div>
