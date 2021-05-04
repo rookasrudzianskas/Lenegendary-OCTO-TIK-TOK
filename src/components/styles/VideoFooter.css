@@ -27,6 +27,7 @@
     position: absolute;
 }
 
+/* targeting the real ticker, and making it not  to touch the icon*/
 .videoFooter__ticker > .ticker {
     height: fit-content;
     margin-left: 30px;
