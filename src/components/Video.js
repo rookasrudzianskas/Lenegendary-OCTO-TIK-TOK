@@ -1,15 +1,17 @@
-import React from "react";
+import React, {useRef} from "react";
 import "./styles/Video.css";
 
 const Video = () => {
+    // defining the reference, we attach the video ref to the video
+    const videoRef = useRef(null);
+
     return (
         <div className="video">
 
-            <iframe  className="video__player" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
 
-            {/*<video src=""></video>*/}
-
+            <video loop ref={videoRef}>
+                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+            </video>
 
             {/*    video footer     */}
         {/*     video sidebar   */}
