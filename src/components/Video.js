@@ -32,9 +32,7 @@ const Video = ({url, channel, description, song, likes, messages, shares}) => {
             {/*</video>*/}
 
             <iframe onClick={onVideoPress} ref={videoRef} width="560" height="800" src={url}
-                title="YouTube video player" frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen/>
+                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
 
             <VideoFooter channel={channel} description={description} song={song}/>
 
