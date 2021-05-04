@@ -32,13 +32,13 @@ const Video = ({url, channel, description, song, likes, messages, shares}) => {
             {/*</video>*/}
 
             <iframe onClick={onVideoPress} ref={videoRef} width="560" height="800" src="https://www.youtube.com/embed/AIWgvL7tLfI"
-    title="YouTube video player" frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen/>
+                title="YouTube video player" frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen/>
 
-            <VideoFooter channel="rookasrudzianskas" description="check out this dance" song="Shake it Off!"/>
+            <VideoFooter channel={channel} description={description} song={song}/>
 
-            <VideoSidebar likes={300} messages={456} shares={333} />
+            <VideoSidebar likes={likes} messages={messages} shares={shares} />
             {/*    video footer     */}
         {/*     video sidebar   */}
         </div>
